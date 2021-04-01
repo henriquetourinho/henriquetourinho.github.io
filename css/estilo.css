@@ -82,14 +82,13 @@ a.continuar-lendo:hover{
 
 
 
+
+
 * {
   margin: 0;
   padding: 0;
 }
 
-body {
-  background: #0A122A;
-}
 
 /* Let's style the wrapper in such away that, 
 it should always be at the center of the browser */
@@ -117,7 +116,7 @@ it should always be at the center of the browser */
   text-align: center;
   cursor: pointer;
   border-radius: 50%;
-  border: 5px solid #D8E2DC;
+  border: 5px solid #0060ef;
   float: left;
   transition: all 0.5s ease;
 }
@@ -125,7 +124,7 @@ it should always be at the center of the browser */
 /* Style the icons by setting its color and margin-top value to 20px 
 to align it properly */
 .wrapper ul li .fa {
-  color: #D8E2DC;
+  color: #222;
   margin-top: 20px;
   transition: all 0.5s ease;
 }
@@ -224,3 +223,4 @@ to align it properly */
       margin-left: 15px;
   }
 }
+
